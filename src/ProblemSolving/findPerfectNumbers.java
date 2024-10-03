@@ -3,6 +3,10 @@ package ProblemSolving;
 public class findPerfectNumbers {
     public int solve(int A)
     {
+        if(A<=1)
+        {
+            return 0;
+        }
         int sum =1;
         for(int i=2;i*i<=A;i++)
         {

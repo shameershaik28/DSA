@@ -12,7 +12,7 @@
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DSA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProblemSolving/findPerfectNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProblemSolving/findPerfectNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProblemSolving/findPerfectNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
     "Application.findPerfectNumbers.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Code Playground/GitHub/ProductService",
     "node.js.detected.package.eslint": "true",
@@ -70,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727946430296</updated>
-      <workItem from="1727946431263" duration="3487000" />
+      <workItem from="1727946431263" duration="3905000" />
     </task>
     <servers />
   </component>
