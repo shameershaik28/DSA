@@ -3,32 +3,8 @@ package ProblemSolving;
 import java.util.Arrays;
 //Brute Force Approach
 public class ArrayRotation {
-    public  int[] solve(int[] A, int B) {
-        int N = A.length;
-        int s = 0;
-        int e = N-1;
 
-      while(s<e)
-      {
-          int temp = A[s];
-          A[s] = A[e];
-          A[e] = temp;
-          s++;
-          e--;
-      }
-
-      s =0;
-      e= B-1;
-      while(s<e)
-      {
-          int temp = A[s];
-          A[s] = A[e];
-          A[e] = temp;
-          s++;
-          e--;
-      }
-        s =B;
-        e= N-1;
+    public void rotateArray(int[] A, int s, int e) {
         while(s<e)
         {
             int temp = A[s];
@@ -37,6 +13,15 @@ public class ArrayRotation {
             s++;
             e--;
         }
+    }
+    public  int[] solve(int[] A, int B) {
+        int N = A.length;
+        int s = 0;
+        int e = N-1;
+
+        rotateArray(A, s, e);
+        rotateArray(A, 0, B-1);
+        rotateArray(A, B, N-1);
 
         return A;
     }
