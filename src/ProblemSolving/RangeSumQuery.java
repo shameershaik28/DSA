@@ -7,24 +7,32 @@ public class RangeSumQuery {
     {
         int N = A.length;
         int M = B[0].length;
-        int[] sum = new int[B.length];
+        int[] Sum = new int[B.length];
 
-
+        for(int i =1; i<N ; i++)
+        {
+            A[i]+=A[i-1];
+        }
 
         for(int i = 0; i < M; i++)
         {
             int s = B[i][0];
             int e = B[i][1];
-            for(int j = s; j <=e; j++)
+
+            if(s==0)
             {
-                sum [i] += A[j];
+                Sum[i]=A[e];
+            }
+            else
+            {
+                Sum[i]= A[e]-A[s-1];
             }
         }
-        return sum;
+        return Sum;
     }
     public static void main(String[] args) {
-        int[] A = new int[] {2, 2, 2};
-        int[][] B = new int[][] {{0, 0}, {1, 2}};
+        int[] A = new int[] {1, 2, 3, 4, 5};
+        int[][] B = new int[][] {{0, 3}, {1, 2}};
         RangeSumQuery r = new RangeSumQuery();
         int[] result= r.solve(A,B);
         System.out.println(Arrays.toString(result));
