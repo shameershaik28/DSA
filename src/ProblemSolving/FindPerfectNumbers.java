@@ -1,6 +1,6 @@
 package ProblemSolving;
 
-public class findPerfectNumbers {
+public class FindPerfectNumbers {
     public int solve(int A)
     {
         if(A<=1)
@@ -29,7 +29,7 @@ public class findPerfectNumbers {
     }
 
     public static void main(String[] args) {
-        findPerfectNumbers f = new findPerfectNumbers();
+        FindPerfectNumbers f = new FindPerfectNumbers();
 
         int A= 28;
         System.out.println(f.solve(A));

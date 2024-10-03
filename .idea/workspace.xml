@@ -11,9 +11,10 @@
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/DSA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProblemSolving/RangeSumQuery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProblemSolving/ArrayRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProblemSolving/ArrayRotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProblemSolving/findPerfectNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProblemSolving/findPerfectNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProblemSolving/findPerfectNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProblemSolving/FindPerfectNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +43,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ArrayRotation.executor": "Run",
+    "Application.FindPerfectNumbers.executor": "Run",
+    "Application.RangeSumQuery.executor": "Run",
     "Application.findPerfectNumbers.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -72,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727946430296</updated>
-      <workItem from="1727946431263" duration="9158000" />
+      <workItem from="1727946431263" duration="11298000" />
     </task>
     <servers />
   </component>
