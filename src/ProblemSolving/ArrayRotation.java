@@ -16,12 +16,13 @@ public class ArrayRotation {
     }
     public  int[] solve(int[] A, int B) {
         int N = A.length;
+        int range= B%N;
         int s = 0;
         int e = N-1;
 
         rotateArray(A, s, e);
-        rotateArray(A, 0, B-1);
-        rotateArray(A, B, N-1);
+        rotateArray(A, 0, range-1);
+        rotateArray(A, range, N-1);
 
         return A;
     }
