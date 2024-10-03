@@ -1,7 +1,7 @@
 package ProblemSolving;
 
 import java.util.Arrays;
-//Brute Force Approach
+
 public class ArrayRotation {
 
     public void rotateArray(int[] A, int s, int e) {
